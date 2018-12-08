@@ -64,6 +64,4 @@ If you want to contribute to this project, please read the [CONTRIBUTING](https:
 ###### License
 Licensed under the Apache 2.0 license.
 
-See the [LICENSE](https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE.md) file for more details.
 
-Copyright © 2015 [Google Developers Group Managua](http://www.gdgmanagua.org).
