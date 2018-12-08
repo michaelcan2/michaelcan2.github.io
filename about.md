@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Machine Learning Final Project
 permalink: /MLproject/
 ---
 ###### A Jekyll theme based in Google Material Design Lite library.
