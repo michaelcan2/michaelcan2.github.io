@@ -1,6 +1,6 @@
 # Site settings
 title: Machine Learning Final Project
-email: michaelcan293@gmail.com
+email: michaelcantu2019@u.northwestern.edu
 description: > # this means to ignore newlines until "baseurl:"
   michael cantu is a graduate student in artificial intelligence at Northwestern University interested in Machine Learning and Computer Vision.
 baseurl: "" # the subpath of your site, e.g. /blog/
