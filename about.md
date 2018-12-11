@@ -14,7 +14,7 @@ We sought to predict the success of a show at one of Chicago’s premier theater
 The Theater shared with us data listing performance dates and tickets sold, and through research and perseverance we developed features for season, daypart, genre, venue, minimum ticket price, production length, national origin of the production, recurring productions, and family-oriented productions.  We chose percentage of seats sold as our classification variable, and thus we favored learners that promised good performance with classification using continuous variables.  We experimented with k-nearest neighbor, linear regression, additive regression, random forests, m-5-prime, and neural networks.  Random forests and m-5-prime produced the best results, with R2 values of 0.59 and 0.58 and root-mean-squared errors of .131 and .132, respectively.  Looking ahead to future work, we believe better results will require more data.  In particular, we think more ticket pricing and marketing/advertising data would be especially valuable. 
 </p>
 
-<img class="pic" src='../img/biggergraph.jpg' alt="big">
+<!-- <img class="pic" src='../img/biggergraph.jpg' alt="big"> -->
 <img class="picbig" src='../img/biggergraph.jpg' alt="big">
 
 
