@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Machine Learning Final Project
+title: Predicting the Success of a Theatrical Production
 permalink: /MLproject/
 ---
 ###### Created by: Harper Pack, Brandon Harris and Michael Cantu
