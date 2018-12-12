@@ -2,7 +2,7 @@
 title: Northwestern University EECS/MSAI 349, Fall 2018
 email: michaelcantu2019@u.northwestern.edu
 description: > # this means to ignore newlines until "baseurl:"
-  michael cantu is a graduate student in artificial intelligence at Northwestern University interested in Machine Learning and Computer Vision.
+  
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://michaelcantu.me/" # the base hostname & protocol for your site
 
