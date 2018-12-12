@@ -15,7 +15,7 @@ The Theater shared with us data listing performance dates and tickets sold, and 
 </p>
 
  <img class="pic" src='../img/biggergraph.jpg' alt="big" width="500" height="600"> 
- <img class="picbig" src='../img/biggergraph.jpg' alt="big"> 
+<!--  <img class="picbig" src='../img/biggergraph.jpg' alt="big"> -->
 
 
 You can find the source code for the Jekyll MDL theme at: [github.com/gdg-managua/jekyll-mdl](https://github.com/gdg-managua/jekyll-mdl)
