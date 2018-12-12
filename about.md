@@ -7,6 +7,7 @@ permalink: /MLproject/
 
 ###### ABSTRACT
 <a href="Airbnb.pdf" download="../Documents/GitHub/michaelcan2.github.io/Airbnb.pdf">Click here to download PDF</a>
+<iframe src="http://docs.google.com/gview?url=https://github.com/michaelcan2/filetest/raw/master/ML%20Project%20-%20MSAI%20349%20-%20Group%202.pdf&embedded=true">
 <p> 
 We sought to predict the success of a show at one of Chicago’s premier theater companies (hereafter the “Theater”; actual name withheld at the request of the institution).  Our task is an important one insofar as its successful completion could provide material support to the Theater, which is a significant thread in the cultural fabric of Chicago.  It is incumbent upon such cultural institutions to ensure they remain both financially viable and socially relevant.  We believe the ability to anticipate the success of a show prior to investing in its production would help the Theater in its pursuit of these goals.
 </p>
