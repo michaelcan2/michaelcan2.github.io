@@ -5,6 +5,7 @@ permalink: /MLproject/
 ---
 ###### Created by: Harper Pack, Brandon Harris and Michael Cantu
 
+###### ABSTRACT
 
 <p> 
 We sought to predict the success of a show at one of Chicago’s premier theater companies (hereafter the “Theater”; actual name withheld at the request of the institution).  Our task is an important one insofar as its successful completion could provide material support to the Theater, which is a significant thread in the cultural fabric of Chicago.  It is incumbent upon such cultural institutions to ensure they remain both financially viable and socially relevant.  We believe the ability to anticipate the success of a show prior to investing in its production would help the Theater in its pursuit of these goals.
