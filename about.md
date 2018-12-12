@@ -15,6 +15,7 @@ The Theater shared with us data listing performance dates and tickets sold, and 
 </p>
 
  <img src='../img/biggergraph.jpg' width="500" height="600"> 
+ <b>please right click image to open in new tab to better see our results
 <!--  <img class="picbig" src='../img/biggergraph.jpg' alt="big"> -->
 
 
