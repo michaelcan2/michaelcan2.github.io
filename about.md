@@ -3,6 +3,9 @@ layout: page
 title: Predicting the Success of a Theatrical Production
 permalink: /MLproject/
 ---
+<br>
+charlespack2019@u.northwestern.edu
+<br>
 ###### Created by: Harper Pack, Brandon Harris and Michael Cantu
 
 ###### ABSTRACT
@@ -43,6 +46,7 @@ low. The bins had to be narrow to provide significant value to the Theater, and 
 to achieve good accuracy in these instances. We also explored a binary classifier to predict
 whether the Theater would fill to more or less than 90% capacity, but these results were
 similarly underwhelming.
+<br>
 With our dataset complete, we began experimenting with learners which would allow
 for classification with continuous values. We first experimented with ZeroR because our data
 had low variance. ZeroR performed well: our mean absolute error was 0.133 and our root
@@ -58,15 +62,16 @@ improvements. Yet these experiments were not without value, as our classifiers w
 offer some insight into feature significance. The regressions saw venue and genre as the most
 salient features, but the weightings it assigned to each were not much greater than those it
 assigned to the other features.
+<br>
 We then moved to a k-nearest-neighbor learner, reasoning that the best measure of
 success for a given show may instead be how other shows with similar features had performed.
 We found an R 2 of nearly 0.5 and RMS of 0.141. Varying our “k” proved immaterial, which we
 suspect to be because the average production had more than 48 shows. With so many shows in
 a similar space, increasing the “neighbors” considered by the model effected only minor
 changes.
+<br>
 We next experimented with the random forest and M5’ learners. We thought that
 these might fare better than our regressors because they combined regression with the
-
 categorical utility of decision trees. Random forest and M5’ capitalized on this promise,
 delivering R 2 of 0.59 and 0.58 and RMS of 0.131 and 0.132, respectively. We explored different
 bag sizes for our random forest learner, but these adjustments proved ineffective, possibly due
@@ -77,6 +82,7 @@ our dataset. We presumed random forest would not have such struggles due to its 
 artificially create datasets through bagging. These classifiers also deemed venue to be the most
 important feature by a significant margin, but once again we saw little separation between the
 other attribute weights.
+<br>
 In search of better performance, we pursued a custom-built approach wherein we
 created a neural net using TensorFlow and Keras. We suspected we might achieve better
 predictive performance by sacrificing interpretability, but we were disappointed. We explored
@@ -86,6 +92,7 @@ with an R 2 of 0.18. We believe the neural net was ineffective compared to our t
 approaches primarily due to the size of our dataset; the trees outperformed our neural net
 because they employ a combination of simple techniques which do not require as much data as
 deep learning.
+<br>
 Considering our results in their totality, we are left to conclude that we did not have
 sufficient data to build a more effective classifier. We base this conclusion both on our own
 intuition as well as the results we obtained. Regarding the former, we expect that an
@@ -94,6 +101,7 @@ show, but also a) what other shows may be playing at other theaters, b) whether 
 aware of the show / how the show has been advertised, and c) the real cost of attending the
 show. We were unable to capture these variables, and we believe that hampered our
 effectiveness.
+<br>
 In conclusion, we produced a classifier that could predict the success of a show at the
 Theater with a degree of accuracy high enough to be useful but not enough to be completely
 confident in its predictions. We are pleased with the result, both because our goal at the outset
@@ -103,6 +111,7 @@ below 0.6 and RMS of nearly 0.13. While we might ideally want an R 2 approaching
 our 0.6 value to be useful because it represents a significant improvement over the benchmark
 established by ZeroR, which we thought was a high standard to surpass given the low variance
 of our data.
+<br>
 In the effort contributing to this analysis, Harper performed yeoman’s work in
 meticulously building the datasets, Brandon shouldered a tremendous burden in managing the
 sprawling analysis, and Michael ventured daringly into the unknown as he pioneered our efforts
