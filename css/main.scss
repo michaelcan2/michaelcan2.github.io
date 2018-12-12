@@ -1,6 +1,4 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+
 //
 // Main sass file, to import all styles
 //
@@ -13,12 +11,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-.mdl-card {
-        .mdl-card__title {
-          color: #C317CE;
-          height: 176px;
-          background: url('../img/welcome_card.jpg') center / cover;
-        }
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",

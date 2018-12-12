@@ -10,7 +10,12 @@
 }
 
 // Cards styles
-
+.mdl-card {
+  .mdl-card__title {
+    color: #C317CE;
+    height: 176px;
+    background: url('../img/welcome_card.jpg') center / cover;
+  }
 
   .mdl-card__supporting-text > span { color: #9F9F9F; }
 
