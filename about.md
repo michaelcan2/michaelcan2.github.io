@@ -15,7 +15,7 @@ The Theater shared with us data listing performance dates and tickets sold, and 
 </p>
 
  <img src='../img/biggergraph.jpg' width="500" height="600"> 
- <em>Figure 1 above illustrates our M5' tree. 
+ {text-align:center;} <em>Figure 1 above illustrates our M5' tree.
  <b>Please right click image to open in new tab to zoom in.
 <!--  <img class="picbig" src='../img/biggergraph.jpg' alt="big"> -->
 
