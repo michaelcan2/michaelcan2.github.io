@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://michaelcantu.me/" # the base hostname & protocol for your site
 
 
-# Layout settings
+# Layout settings###
 header_type: default  # values [ drawer, default ]
 post_type: highlight    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
