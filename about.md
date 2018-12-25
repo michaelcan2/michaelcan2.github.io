@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Predicting the Success of a Theatrical Production
-permalink: /MachineLearning/
+permalink: /MachineLearningProject/
 ---
 <br>
-charlespack2019@u.northwestern.edu
+
 <br>
 ###### Created by: Harper Pack, Brandon Harris and Michael Cantu
 
