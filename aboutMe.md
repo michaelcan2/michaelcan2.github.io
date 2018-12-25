@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Predicting the Success of a Theatrical Production
-permalink: /MachineLearning/
+
 ---
 <br>
 charlespack2019@u.northwestern.edu
