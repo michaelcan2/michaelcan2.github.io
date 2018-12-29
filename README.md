@@ -1,81 +1,66 @@
-# jekyll-mdl
-> A Jekyll theme based in Google Material Design Lite library.
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/indigo"><img src="https://camo.githubusercontent.com/5393485b732749b3499264168fa8af60166071e8/68747470733a2f2f7472617669732d63692e6f72672f73657267696f6b6f70706c696e2f696e6469676f2e7376673f6272616e63683d67682d7061676573" alt="Build Status" data-canonical-src="https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages" style="max-width:100%;"></a></h2>
+</p>
 
-## Demo
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-You can see the online demo here [http://gdgmanagua.github.io/jekyll-mdl/](http://gdgmanagua.github.io/jekyll-mdl/)
+***
 
-![Demo](https://raw.githubusercontent.com/gdg-managua/jekyll-mdl/master/jekyll-mdl-screen.png)
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    |
+    <b><a href="README.md#setup">Setup</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+</p>
 
-## Sites using jekyll-mdl
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+</p>
 
-If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send us a pull request, we will be happy to know where the theme has been used.
+## What has inside
 
-- [prosa100.github.io](http://prosa100.github.io/)
-- [fandekasp.github.io](http://fandekasp.github.io/)
-- [webiphany.com](http://webiphany.com)
-- [siempredelao.github.io](http://siempredelao.github.io/)
-- [sparker0i.github.io](http://sparker0i.github.io/)
-- [kris27mc.github.io](https://kris27mc.github.io)
+- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
+- Tests with [Travis](https://travis-ci.org/)
+- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
+- No JS. :sunglasses:
 
-## Custom Themes
+## Setup
 
-If you don't want the default site colors, you can create custom themes for the site in the [mdl theme creator](http://www.getmdl.io/customize/index.html). The site will create a custom css, something like this:
+0. :star: to the project. :metal:
+2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
+4. Write some posts :bowtie:
 
-     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.teal-green.min.css" />
+If you want to test locally on your machine, do the following steps also:
 
-Now add this in the _includes/head.html file, under the main css and enjoy your new theme.
+1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
+2. Clone the forked repo on your machine
+3. Enter the cloned folder via terminal and run `bundle install`
+4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
+5. Open it in your browser: `http://localhost:4000`
+6. Test your app with `bundle exec htmlproofer ./_site`
+7. Do you want to use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) plugin to edit your posts? Go to the admin panel: `http://localhost:4000/admin`. The admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
 
-## Post Options
+## Settings
 
-All the post, require an image and maybe an author and declare if the post is highlighted or not, the image are used in the cards and the autor used for the footer in the cards, the highlighted post is used for make this 12 cols and not a card, if you want to use the custom images and set the author and the highlight post, just add a new key in the post config, something like this:
+You must fill some informations on `_config.yml` to customize your site.
 
-    ---
-    layout: post
-    title:  "Welcome to jekyll-mdl"
-    date:   2015-07-11 11:34:20
-    categories: jekyll
-    highlight: true
-    image: http://www.wchs4pets.org/wp-content/uploads/2015/03/cat_1-jpg.jpg
-    author: Google Developers Group Managua
-    ---
+```
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
+...
 
-## Layout Configuration
-You can setup 4 types of layout
+and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
+```
 
-- Fixed Nav + Simple Card Grid
-- Fixed Nav + Highlight Post + Card Grid
-- Drawer Nav + Simple Card Grid
-- Drawer Nav + Highlight Post + Card Grid
+## How To?
 
-For use this in the [_config.yml](https://github.com/gdg-managua/jekyll-mdl/blob/master/_config.yml) select the type of layout, rebuild the website and voilà :smile:
+Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 
-## Contributing
-If you want to contribute to this project, please read the [CONTRIBUTING](https://github.com/gdg-managua/jekyll-mdl/blob/master/CONTRIBUTING.md) file and perform the following steps
+---
 
-    # Fork this repository
-    # Clone your fork
-    jekyll serve --watch
-
-    git checkout -b feature_branch
-    # Implement your feature and tests
-    git add . && git commit
-    git push -u origin feature_branch
-    # Send a pull request for your feature branch
-
-## Team
-[![Oscar Cortez](https://avatars.githubusercontent.com/u/2553459?v=3&s=100)](http://github.com/oscarmcm) | [![Byron Corrales](https://avatars.githubusercontent.com/u/99616?v=3&s=100)](https://github.com/byroncorrales)
----|---
-[Oscar Cortez](http://github.com/oscarmcm) | [Byron Corrales](https://github.com/byroncorrales)
-Project Lead | Contributor
-
-## License
-Licensed under the Apache 2.0 license.
-
-See the [LICENSE](https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE.md) file for more details.
-
-Copyright © 2015 [Google Developers Group Managua](http://www.gdgmanagua.org).
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gdg-managua/jekyll-mdl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
