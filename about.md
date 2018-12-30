@@ -3,7 +3,7 @@ title: About
 layout: page
 picture: assets/images/desk.png
 youtubeId: 5YxzWnbqaJI
-
+{% include youtubePlayer.html id=page.5YxzWnbqaJI %}
 ---
 
 
