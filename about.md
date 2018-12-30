@@ -3,12 +3,13 @@ title: About
 layout: page
 picture: assets/images/desk.png
 youtubeId: 5YxzWnbqaJI
+
 ---
 
 
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
-<p>I am a current graduate student at the Northwestern University Artificial Intelligence program who is passionate about data analytics.  </p>
+<p>I eeee am a current graduate student at the Northwestern University Artificial Intelligence program who is passionate about data analytics.  </p>
 
 <p>My studies at Northwestern include utilizing various types of data processing software such as Spark, Tableau, and Tensorflow. For example, I have used these techniques to dissect data sets on all the settlements with the Chicago Police Department. My team and I used the discovered data patterns to connect commonalities among violent interactions with the police force. I have also analyzed the success of theatrical plays at one of Chicago’s premier theatres. The goal was to anticipate the success of a show prior to investing in its production and to maximize revenue using the listed performance dates and number of tickets sold.</p>
 
