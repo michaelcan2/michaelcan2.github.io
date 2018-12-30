@@ -21,7 +21,7 @@ url: https://michaelcan2.github.io
 
 permalink: /:title/
 
-<video src="NWCandidate.mp4" width="320" height="200" controls preload></video>
+#<video src="NWCandidate.mp4" width="320" height="200" controls preload></video>
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
