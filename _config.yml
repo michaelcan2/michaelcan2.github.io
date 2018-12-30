@@ -1,7 +1,10 @@
 # main text of home
 name: Michael Cantu
 bio: I am a current graduate student at the Northwestern University Artificial Intelligence program who is passionate about data analytics. 
+youtubeId: 5YxzWnbqaJI
 
+
+{% include youtubePlayer.html id=page.5YxzWnbqaJI %}
 # twitter summary info
 description: A blog about technology and stuff related
 
