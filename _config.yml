@@ -34,11 +34,11 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+#facebook: myfacebook
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+ linkedin: https://www.linkedin.com/in/michaelcan2/
 # youtube: myyoutube
 # spotify: myspotify
 github: michaelcan2
