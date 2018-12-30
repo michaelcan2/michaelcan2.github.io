@@ -1,6 +1,6 @@
 # main text of home
 name: Michael Cantu
-bio: A Man that can
+bio: Artificial Intelligence student at Northwestern University 
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -38,7 +38,7 @@ facebook: myfacebook
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+ linkedin: https://www.linkedin.com/in/michaelcan2/
 # youtube: myyoutube
 # spotify: myspotify
 github: michaelcan2
