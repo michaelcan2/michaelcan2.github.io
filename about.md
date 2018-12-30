@@ -2,7 +2,7 @@
 title: About
 layout: page
 picture: assets/images/desk.png
-youtubeId: watch?v=5YxzWnbqaJI
+youtubeId: 5YxzWnbqaJI
 ---
 
 
