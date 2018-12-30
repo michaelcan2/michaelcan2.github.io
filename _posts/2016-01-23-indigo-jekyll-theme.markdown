@@ -21,7 +21,7 @@ Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokop
 
 What has inside?
 
-- Gulp
+
 - BrowserSync
 - Stylus
 - SVG
