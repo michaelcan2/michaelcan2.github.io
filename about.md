@@ -3,10 +3,9 @@ title: About
 layout: page
 picture: assets/images/desk.png
 youtubeId: 5YxzWnbqaJI
-
+{% include youtubePlayer.html id=page.5YxzWnbqaJI %}
 ---
 
-# {% include youtubePlayer.html id=page.5YxzWnbqaJI %}
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 <p>I am a current graduate student at the Northwestern University Artificial Intelligence program who is passionate about data analytics.  </p>
