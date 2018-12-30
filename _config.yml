@@ -5,7 +5,7 @@ bio: I am a current graduate student at the Northwestern University Artificial I
 # twitter summary info
 description: A blog about technology and stuff related
 
-{% include youtubePlayer.html id=page.UnTQVlqmDQ0 %}
+{% include youtubePlayer.html id=page.https://www.youtube.com/watch?v=5YxzWnbqaJI %}
 # if it's an external image, update below for true
 # better with square images
 external-image: false
