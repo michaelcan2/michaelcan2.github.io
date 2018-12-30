@@ -1,6 +1,6 @@
 # main text of home
 name: Michael Cantu
-bio: Artificial Intelligence student at Northwestern University
+bio: A Man that can
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -12,7 +12,7 @@ picture: assets/images/mike.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-# resume: true
+resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
@@ -20,8 +20,6 @@ url: https://michaelcan2.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
-
-#<video src="NWCandidate.mp4" width="320" height="200" controls preload></video>
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
@@ -36,10 +34,11 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
+facebook: myfacebook
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
- linkedin: https://www.linkedin.com/in/michaelcan2/
+# linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
 github: michaelcan2
