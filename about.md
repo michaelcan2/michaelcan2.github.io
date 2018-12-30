@@ -2,7 +2,10 @@
 title: About
 layout: page
 picture: assets/images/desk.png
+youtubeId: https://www.youtube.com/watch?v=5YxzWnbqaJI
 ---
+
+
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 <p>I am a current graduate student at the Northwestern University Artificial Intelligence program who is passionate about data analytics.  </p>
