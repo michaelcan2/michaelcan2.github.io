@@ -4,8 +4,9 @@ bio: I am a current graduate student at the Northwestern University Artificial I
 
 # twitter summary info
 description: A blog about technology and stuff related
-
-{% include youtubePlayer.html id=page.https://www.youtube.com/watch?v=5YxzWnbqaJI %}
+<div class="embed-container">
+  <iframe width="700" height="480" src="https://www.youtube.com/embed/lDi9uFcD7XI" frameborder="0" allowfullscreen=""></iframe>
+</div>
 # if it's an external image, update below for true
 # better with square images
 external-image: false
