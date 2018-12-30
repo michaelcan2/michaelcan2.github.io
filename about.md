@@ -5,19 +5,12 @@ picture: assets/images/desk.png
 ---
 
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I am a current graduate student at the Northwestern University Artificial Intelligence program who is passionate about data analytics.  </p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>My studies at Northwestern include utilizing various types of data processing software such as Spark, Tableau, and Tensorflow. For example, I have used these techniques to dissect data sets on all the settlements with the Chicago Police Department. My team and I used the discovered data patterns to connect commonalities among violent interactions with the police force. I have also analyzed the success of theatrical plays at one of Chicago’s premier theatres. The goal was to anticipate the success of a show prior to investing in its production and to maximize revenue using the listed performance dates and number of tickets sold.</p>
+
+<p>Studying Artificial Intelligence at Northwestern has taught me several skills such as competitive analysis, strategic investigation, problem solving, meeting deadlines, teamwork, and delivering effective presentations.  I am eager to put these skills to work in a professional environment and feel that I would be a great addition to the Wex team.
+</p>
 
 <h2>Skills</h2>
 
