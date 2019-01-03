@@ -29,8 +29,3 @@ youtubeId: 5YxzWnbqaJI
 	<li>Git</li>
 </ul>
 
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/invinst/nu-collaboration/tree/master/15_Group">Project on Chicago Police Department Database</a></li>
-</ul>
