@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# run.sh: runs the actual submission
+
+
+# (sleep 3 && lsof -i -n) & python3 go_administrator.py
+
+python3 go_admin.py "$@"

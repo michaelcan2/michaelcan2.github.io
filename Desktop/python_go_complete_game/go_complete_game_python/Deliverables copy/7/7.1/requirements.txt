@@ -1,0 +1,5 @@
+decorator==4.4.0
+future==0.18.1
+PyContracts==1.8.12
+pyparsing==2.4.2
+six==1.12.0
