@@ -48,6 +48,12 @@ p {font-weight: 200; font-size: 20px;}
     box-shadow:  = 20px 20px;
   background-color: #df5711;
   color: white;
+}
+    .profile_pic {
+        border-radius: 50%;
+        width:300px;
+        margin:auto;
+    }
 
 .container {margin: 0 auto; width: 700px; padding: 120px 12px 50px; overflow: auto;}
 article {padding: 60px;}
