@@ -52,6 +52,7 @@ p {font-weight: 200; font-size: 20px;}
     .profile_pic {
         border-radius: 50%;
         width:300px;
+        height:300px;
         margin:auto;
     }
 
